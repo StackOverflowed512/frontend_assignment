@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+.desktopSize{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobileSize{
+    /* border: 2px solid red; */
+    width: 375px;
+    height: 595px;
+    border-radius: 5px;
+    background-color: white;
+}
