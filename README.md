@@ -73,7 +73,7 @@ educase-assignment/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/project-name.git
+git clone  https://github.com/ikrar24/educase-india-assignment
 
 # Go to the project directory
 cd Educase-India-Assignment
