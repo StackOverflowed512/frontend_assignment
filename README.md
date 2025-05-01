@@ -1,53 +1,11 @@
 # 📦 Educase India Assigment
 
-Short one-liner summary of Assigment project.
-
-> I Fully Focoused On Your Given  Css Style of Assigment and i create Mobile First Ui.   
+> I  focused on Your Given  CSS style of assignment and i created Mobile First Ui.   
 
 
 ---
 
 
-## File Stracture
-
-## 📁 Project Structure
-
-## 📁 Project Structure
-
-```
-educase-assignment/
-│
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── components/
-│   │   ├── LoginScreen/
-│   │   │   ├── LoginScreen.jsx
-│   │   │   └── LoginScreen.css
-│   │   ├── Profile/
-│   │   │   ├── Profile.jsx
-│   │   │   └── Profile.css
-│   │   ├── SignUpScreen/
-│   │   │   ├── SignUpScreen.jsx
-│   │   │   └── SignUpScreen.css
-│   │   ├── WelcomePage/
-│   │   │   ├── WelcomePage.jsx
-│   │   │   └── WelcomePage.css
-│   │   └── ProtectedRoute.jsx
-│   │
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── .gitignore
-├── package.json
-├── README.md
-└── vite.config.js
-```
-
-
-
----
 
 ## ✨ Features
 
@@ -68,18 +26,3 @@ educase-assignment/
 - **Others:** bcryptjs, react-router-dom, Font Awesome, etc.
 
 ---
-
-## ⚙️ Installation
-
-```bash
-# Clone the repo
-git clone  https://github.com/ikrar24/educase-india-assignment
-
-# Go to the project directory
-cd Educase-India-Assignment
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
