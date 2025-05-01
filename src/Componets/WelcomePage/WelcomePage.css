@@ -1,128 +1,109 @@
 main {
-  /* border: 2px solid red; */
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(41, 41, 41);
+  background-color: #43bda4;
 }
 
 .Container {
-  /* border: 2px solid black; */
   background-color: white;
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   height: 580px;
   display: flex;
-  /* flex-direction: column; */
   align-items: last baseline;
-  border-radius: 5px;
+  border-radius: 15px;
   justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .SmallContainer {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid blue; */
   width: 95%;
   margin-bottom: 40px;
-  
+  padding: 20px;
 }
 
-/* Welcome section Container Css */
 .WelcomeBox {
-  /* border: 2px solid red; */
   width: 95%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
+}
+
+.Welcome {
+  font-size: 32px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
 .ShortInfo {
   font-weight: normal;
-  font-size: 15px;
-  color: rgb(139, 139, 139);
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
 }
 
-/* Create and Registered section Container Css */
 ul {
-  /* border: 2px solid green; */
-  margin-top: 25px;
+  margin-top: 30px;
   width: 100%;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
+  gap: 15px;
 }
 
 .CreateAccountLi,
 .LoginLi {
-  background-color: rgb(0, 140, 255);
-  width: 90%;
-  border-radius: 5px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.CreateAccountLink,.LoginLink{
-  width: 100%;
-  /* border: 2px solid red; */
-  width: 100%;
-  padding: 10px;
+.CreateAccountLi:hover,
+.LoginLi:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
+.CreateAccountLink,
 .LoginLink {
-  color: black;
-  font-weight: 500;
   width: 100%;
+  padding: 15px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}
+
+.CreateAccountLi {
+  background-color: #2196F3;
 }
 
 .LoginLi {
-  background-color: rgb(216, 183, 253);
+  background-color: #E1BEE7;
 }
 
-li {
-  list-style: none;
+.CreateAccountLink {
+  color: white;
 }
 
+.LoginLink {
+  color: #333;
+}
 
-
-
-/* Responsive for all mobile */
-
-
-
-@media screen and (max-width:430px) {
-  .Container{
-    width: 430px;
-    height: 932px;
+/* Responsive Design */
+@media screen and (max-width: 430px) {
+  .Container {
+    height: 100vh;
+    border-radius: 0;
   }
   
-} 
-
-@media screen and (max-width:390px) {
-  .Container{
-    width: 390px;
-    height: 884px;
+  .SmallContainer {
+    padding: 30px 20px;
   }
-  
-} 
-
-
-@media screen and (max-width:375px) {
-    .Container{
-        width: 375px;
-        height: 667px;
-    }
-
-} 
+}
 
